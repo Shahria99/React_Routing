@@ -1,0 +1,16 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.cards {
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 18px 18px 35px #c7c7c7, -18px -18px 35px #f9f9f9;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
