@@ -5,6 +5,7 @@ import Posts from "../components/Posts";
 import Login from "../components/Login";
 import Hero from "../components/Hero";
 import Timeline from "../components/Timeline";
+import SignUp from "../components/SignUp";
 
 const MainRoutes = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const MainRoutes = createBrowserRouter([
       {
         path: "/learning",
         element: <Timeline />,
+      },
+      {
+        path: "/sign-up",
+        element: <SignUp />,
       },
     ],
   },

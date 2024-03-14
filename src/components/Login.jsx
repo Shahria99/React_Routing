@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 const Login = () => {
   return (
     <div>
@@ -42,6 +43,12 @@ const Login = () => {
                 >
                   Login
                 </button>
+                <NavLink
+                  to="/sign-up"
+                  className="text-red-500 mt-5 link link-primary"
+                >
+                  Create an account
+                </NavLink>
                 <dialog id="my_modal_1" className="modal">
                   <div className="modal-box">
                     <h3 className="font-bold text-lg">Thank You</h3>
